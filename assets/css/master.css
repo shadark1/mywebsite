@@ -1,0 +1,342 @@
+/* FONT */
+
+@font-face {
+    font-family: SFProDisplay;
+    src: url(../font/sf-pro-text_bold.woff2);
+}
+
+@font-face {
+  font-family: SFProDisplaySemi;
+  src: url(../font/sf-pro-display_semibold.woff2);
+}
+
+@font-face {
+  font-family: SFProDisplayLight;
+  src: url(../font/sf-pro-text_light.woff2);
+}
+
+@font-face {
+  font-family: SFProDisplayRegular;
+  src: url(../font/sf-pro-text_regular.woff2);
+}
+
+
+
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+  color: rgba(255, 255, 255);
+  font-family: SFProDisplay, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.mainWrap{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.wrap{
+  background-color: #fff;
+  position: relative;
+  top: 0;
+  height: 700PX;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.line{
+  position: relative;
+  top:50%;
+  width: 11em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(0, 0, 0, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden; transform: translateY(-50%);
+}
+
+.line-small{
+  position: relative;
+  top:50%;
+  width: 11em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(0, 0, 0, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden; transform: translateY(-50%);
+}
+
+.p-font{
+  font-size: 48px !important;
+  font-family: SFProDisplaySemi;
+  color: #000;
+}
+
+.small-font{
+  color: #000;
+  font-size: 24px !important;
+}
+
+.anim-typewriter{
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.small-anim-typewriter{
+  animation: typewriter 6s steps(40) 1s 1 normal both,
+  blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.wrap-letters{
+  position: relative;
+  top: 0;
+  z-index: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  color:#fff;
+  background-color: #161616;
+  font-size: 100px;
+}
+
+/* about section */
+.aboutwrap{
+  background-color: #161616;
+  position: relative;
+  top: 0;
+  height: 35%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.about{
+  position: relative;
+  margin-top: 10%;
+  z-index: 2;
+  font-size: 72px;
+  text-align: left;
+}
+
+.wrap-about-text{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.about-text{
+  position: relative;
+  margin-top: 10%;
+  z-index: 3;
+  font-family: SFProDisplayLight;
+  font-size: 24px;
+  text-align: justify;
+
+}
+
+
+.square{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+    z-index: 1;
+    background-color: #00F1C9;
+    position: absolute;
+    margin-top: -10%;
+    transform: translate3d(0px, 0px, 0px) rotate(45deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) rotate(45deg);
+    -moz-transform: translate3d(0px, 0px, 0px) rotate(45deg);
+}
+/* end about section */
+
+
+/* portfolio section */
+.portifoliowrap{
+  background-color: #fff;
+  color:#000;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 60%;
+  width: 100%;
+}
+
+.Portifolio{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+  font-size: 72px;
+}
+
+.portfoliocontent{
+  position: relative;
+  margin-top: 5%;
+}
+
+/* END portfolio section */
+
+/* hire section */
+.wrap-hire{
+  background-color: #161616;
+  position: relative;
+  top: 0;
+  height: 15%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.hire{
+  position: relative;
+  text-align: center;
+  font-size: 72px;
+  margin-top: 5%;
+}
+
+.hire-text{
+  position: relative;
+  margin-top: 2%;
+  font-family: SFProDisplayLight;
+  font-size: 24px;
+  text-align: center;
+
+}
+/* END HIRE SECTION */
+
+
+/* CONTACT SECTION */
+
+.wrap-contact{
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  top: 0;
+  height: 40%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
+.contact{
+  position: relative;
+  text-align: center;
+  font-size: 72px;
+  margin-top: 5%;
+}
+
+.contact-text{
+  position: relative;
+  margin-top: 2%;
+  font-family: SFProDisplayLight;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.list-block {
+  margin-top: 4%;
+  font-family: SFProDisplayRegular;
+
+
+}
+
+.list-block input{
+  border-radius: 0;
+}
+
+.list-block button{
+  width: 150px;
+  height: 50px;
+
+}
+
+.wrap-details{
+  background-color: #161616;
+  position: relative;
+  top: 0;
+  height: 20%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.major-details{
+  position: relative;
+  top:30%;
+  display: block;
+  left: 34%;
+}
+
+.details{
+  position: relative;
+  font-size: 36px;
+  margin-top: 5%;
+  text-align: center;
+  z-index: 2
+
+}
+
+.details-text{
+  position: relative;
+  margin-top: 2%;
+  font-family: SFProDisplayLight;
+  font-size: 24px;
+  text-align: center;
+  z-index: 2
+}
+
+.square{
+    height: 600px;
+    width: 600px;
+    border-radius: 12px;
+    z-index: 1;
+    background-color: #00F1C9;
+    position: absolute;
+    margin-top: -10%;
+    transform: translate3d(0px, 0px, 0px) rotate(45deg);
+    -webkit-transform: translate3d(0px, 0px, 0px) rotate(45deg);
+    -moz-transform: translate3d(0px, 0px, 0px) rotate(45deg);
+}
+
+/* ANIMATIONS */
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to{
+    width:10.5em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(0, 0, 0, 0.75);
+  }
+  to{
+    border-right-color: transparent;
+  }
+}
